@@ -1,0 +1,25 @@
+Reflective Ethics Question
+
+
+a. What simplifying and idealizing assumptions did we ask you to make when working on the Sand portion
+of this assignment? How did different components of the "real-world system" we were representing get mapped
+to different computational representations?
+
+The simulation of gravity was simplified for the purposes of this assignment. In real life, gravity has an
+acceleration value of -9.8 meters per second squared, and so the velocity at which an object descends when it
+is falling increases every second. In the sand world, gravity was simulated as having a consistent rate at which
+it caused sand to move down. This real-world-system of objects falling due to the force of gravity was simulated by the
+do_gravity() function which caused every pixel that contained sand to move down if doing so was a valid move.
+
+
+b. What considerations should computer scientists keep in mind when designing computer simulations?
+What should the programmers of simulations communicate about the idealizing assumptions they made
+to allow others to understand and evaluate them?
+
+Computer scientists should keep in mind the potential for representational harms when designing computer simulations.
+For example, a virtual reality game that represents virtual characters of color in a way that perpetuates negative
+stereotypes would be an example of a representational harm brought about by programmers not taking the time to take
+into account the ethical considerations of their software in the pre-deployment phase. When it comes to a program that
+simulates the natural world through certain assumptions and simplifications, programmers should make sure to communicate
+these assumptions and simplification in accompanying files with their program, or with appropriately
+placed asterisked disclaimers either on their official site or at the bottom of advertisements.
